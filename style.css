@@ -1,43 +1,7 @@
 body{
-  background-color: rgb(102, 7, 8);
   border-radius: 25px;
-  
+  background-color: rgb(99, 102, 102);
 
-}
-h1{
-  color: rgb(211, 211, 211);
-  font-family: Arial, Helvetica, sans-serif ;
-  font-size: 50px;
-}
-h2{
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  }
-p{
-  color: rgb(11, 9, 10);
-  font-family: Arial, Helvetica, sans-serif ;
-  background-color: rgb(177, 167, 166);
-}
-h3{
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-}
-li{
-background-color: rgb(177, 167, 166);
-color: black;
-}  
-ul{
-  background-color: rgb(177, 167, 166);
-  color: black;
-  } 
-  ol{
-    background-color: rgb(177, 167, 166);
-    color: black;
-    
-    }   
-a{
-  color: white;
-  background-color: bisque;
 }
 img{
   width: 100%;
@@ -60,12 +24,19 @@ a:active  { color: green; }
   display: flex;
   flex-direction: column;
   margin-bottom: 100px;
+  background-color: rgb(110, 77, 33);
+  text-align: center;
+  border-radius: 50%;
+  margin-top: -2%;
 }
 
 .item {
   flex: 1;
   margin: 10px;
   text-align: center;
+  padding: 5%;
+  font-size: 20px;
+  margin-top: %;
 }
 @media all and (min-width: 800px) {
   section {
