@@ -22,9 +22,11 @@ main{
   flex-direction: column;
   margin-bottom: 100px;
   background-color: rgb(110, 77, 33);
-  text-align: center;
   margin-top: 2%;
- 
+ text-align: center;
+ border: 2px solid black;
+ margin: 10px;
+ border-radius: ;
 }
 
 .item {
